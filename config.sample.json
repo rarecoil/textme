@@ -1,0 +1,6 @@
+{
+    "to": "YOUR_PHONE_NUMBER",
+    "from": "YOUR_TWILIO_SMS_NUMBER",
+    "account_sid":"TWILIO_ACCOUNT_SID",
+    "auth_token": "TWILIO_AUTH_TOKEN"
+}
