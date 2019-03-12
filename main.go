@@ -17,7 +17,7 @@ type configurationData struct {
 	AuthToken  string `json:"auth_token"`
 }
 
-var configFileLocations = [...]string{
+var configFileLocations = []string{
 	"./config.json",
 	"~/.textme.json",
 	"/etc/textme.json",
@@ -25,7 +25,7 @@ var configFileLocations = [...]string{
 }
 
 func main() {
-	if len(os.Args) == 0 {
+	if len(os.Args) == 1 {
 		fmt.Println("No message included")
 		os.Exit(1)
 	}
